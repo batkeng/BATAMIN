@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
+import Visual from '../components/Visual';
 
 function Home() {
   return (
     <div>
-      <h1>홈</h1>
+      <Navigation />
+      <Visual />
     </div>
   );
 }
