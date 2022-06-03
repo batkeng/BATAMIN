@@ -22,24 +22,6 @@ function Home() {
       </div>
     </>
   );
-
-  // const getCampData = async () => {
-  //   const res = await axios.get();
-  //   const campData = res.data.camps;
-  //   campData.map((camps) => {
-  //     return (
-  //       <>
-  //         <div>{camps.camp}</div>
-  //         <div>{camps.status}</div>
-  //         <div>{camps.program}</div>
-  //         <div>{camps.startDate}</div>
-  //       </>
-  //     );
-  //   });
-  // };
-  // useEffect(() => {
-  //   getCampData();
-  // }, []);
 }
 
 export default Home;
