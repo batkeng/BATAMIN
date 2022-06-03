@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "CommonJS",
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true
+    }
+}
