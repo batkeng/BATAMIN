@@ -8,5 +8,8 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "checkJs": true
-  }
+  },
+  "files": [
+    "src/types/types.ts"
+  ]
 }
