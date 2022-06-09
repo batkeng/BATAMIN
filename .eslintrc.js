@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
     'prettier/prettier': ['error'],
     'no-console': 'off',
     'react/prop-types': [
