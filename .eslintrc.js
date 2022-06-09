@@ -16,6 +16,9 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
     'prettier/prettier': ['error'],
     'no-console': 'off',
+    'import/prefer-default-export': 'off',
+    'import/extensions': ['off'],
+    'import/no-unresolved': 'off',
     'react/prop-types': [
       0,
       {
