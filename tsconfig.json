@@ -8,9 +8,16 @@
     "esModuleInterop": true,
     "jsx": "react-jsx",
     "allowJs": true,
-    "checkJs": true
+    "checkJs": true,
+    "baseUrl": "src",
+    "paths": {
+      "apis/*": ["apis/*"],
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"],
+      "pages/*": ["pages/*"],
+      "types/*": ["types/*"],
+      "utils/*": ["utils/*"]
+    }
   },
-  "files": [
-    "src/types/types.ts"
-  ]
+  "files": ["src/types/types.ts"]
 }
