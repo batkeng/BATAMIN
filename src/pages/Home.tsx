@@ -7,7 +7,7 @@ import Visual from '../components/Visual';
 function Home() {
   const [camps, setCamps] = useState([]);
   useEffect(() => {
-    axios.get('../apis /camp.json').then((res) => {
+    axios.get('/data/camp.json').then((res) => {
       setCamps(res.data);
     });
   }, []);
