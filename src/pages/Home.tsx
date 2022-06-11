@@ -28,7 +28,7 @@ function Home() {
     margin: 0 auto;
   `;
   const ContainerOverflow = styled.div`
-    background: linear-gradient(180deg, ${colors.primary1}, ${colors.primary2});
+    background: linear-gradient(180deg, ${colors.primary1}, ${colors.primary3});
   `;
   return (
     <>
