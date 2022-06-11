@@ -5,6 +5,7 @@ import CampCard from '../components/CampCard';
 import CommunityCard from '../components/CommunityCard';
 import Navigation from '../components/Navigation';
 import Visual from '../components/Visual';
+import colors from '../styles/colors';
 
 function Home() {
   const [camps, setCamps] = useState([]);
@@ -26,11 +27,16 @@ function Home() {
     max-width: 960px;
     margin: 0 auto;
   `;
+  const ContainerOverflow = styled.div`
+    background: linear-gradient(180deg, ${colors.primary1}, ${colors.primary2});
+  `;
   return (
     <>
       <div>
-        <Navigation />
-        <Visual />
+        <ContainerOverflow>
+          <Navigation />
+          <Visual />
+        </ContainerOverflow>
       </div>
       <div>
         <CampCard camps={camps} />
