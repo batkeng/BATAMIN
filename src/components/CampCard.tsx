@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Camp } from '../types/types';
 
-function CampCard({ camps }) {
+function CampCard({ camps }: Camp) {
   return (
     <div>
       {camps.map((camp) => {
