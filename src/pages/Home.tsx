@@ -10,15 +10,19 @@ import colors from '../styles/colors';
 function Home() {
   const [camps, setCamps] = useState([]);
   useEffect(() => {
-    axios.get('/data/camp.json').then((res) => {
-      setCamps(res.data);
-    });
+    axios
+      .get('https://raw.githubusercontent.com/batkeng/BATAMIN/main/public/data/camp.json')
+      .then((res) => {
+        setCamps(res.data);
+      });
   }, []);
   const [communities, setCoummunity] = useState([]);
   useEffect(() => {
-    axios.get('/data/community.json').then((res) => {
-      setCoummunity(res.data);
-    });
+    axios
+      .get('https://raw.githubusercontent.com/batkeng/BATAMIN/main/public/data/community.json')
+      .then((res) => {
+        setCoummunity(res.data);
+      });
   }, []);
   const ContainerGrid = styled.div<{ length: number }>`
     display: grid;
