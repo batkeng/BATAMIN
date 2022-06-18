@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BATAMIN/static/css/main.0c7b0035.css",
+    "main.js": "/BATAMIN/static/js/main.0211a8a6.js",
+    "static/media/visual.png": "/BATAMIN/static/media/visual.16ec20f98cc47584389f.png",
+    "index.html": "/BATAMIN/index.html",
+    "main.0c7b0035.css.map": "/BATAMIN/static/css/main.0c7b0035.css.map",
+    "main.0211a8a6.js.map": "/BATAMIN/static/js/main.0211a8a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c7b0035.css",
+    "static/js/main.0211a8a6.js"
+  ]
+}
