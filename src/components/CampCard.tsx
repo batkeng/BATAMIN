@@ -4,7 +4,7 @@ import { Camp } from '../types/types';
 
 function CampCard({ camps }: Camp) {
   return (
-    <div>
+    <>
       {camps.map((camp) => {
         return (
           <Link to='/detail' key={camp.id}>
@@ -15,7 +15,7 @@ function CampCard({ camps }: Camp) {
           </Link>
         );
       })}
-    </div>
+    </>
   );
 }
 
